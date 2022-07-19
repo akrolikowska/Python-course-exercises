@@ -1,9 +1,9 @@
-liczby = input("Podaj 5 różnych cyfr rozdzielonych przecinkiem:")
+liczby = input("Podaj 5 roznych cyfr rozdzielonych przecinkiem:")
 print(liczby)
 tab = liczby.split(',')
 print(tab)
 if len(tab)!=5:
-    print("Nieprawidłowa ilość liczb")
+    print("Nieprawidłowa ilosc liczb")
 else:
     liczbySet = set(tab)
     x = liczbySet.pop()
